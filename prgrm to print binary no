@@ -1,0 +1,13 @@
+import java.util.*;
+public class Solution
+{  
+public static void main(String args[]){  
+int n;
+Scanner sc=new Scanner(System.in);
+System.out.println("1.binary\n2.octal\n3.hexal");
+n=sc.nextInt();
+String h=Integer.toBinaryString(n);
+System.out.println("binary value"+h);
+
+}
+}  
